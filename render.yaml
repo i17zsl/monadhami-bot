@@ -1,0 +1,8 @@
+
+services:
+  - type: web
+    name: monadhami-bot
+    runtime: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot_advanced.py"
